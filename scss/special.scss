@@ -1,0 +1,135 @@
+.special-content {
+  @include center(980px, 150px auto 85px auto);
+  min-height: 910px;
+
+  .title {
+    display: flex;
+
+    .offer {
+      width: 175px;
+      height: 40px;
+    }
+
+    h1 {
+      width: 166px;
+      height: 40px;
+      margin-bottom: 43px;
+      font-family: $font-one;
+      font-size: 30px;
+      border-bottom: solid 2px $black;
+    }
+
+    span {
+      margin-left: 5px;
+      font-family: $font-one;
+      font-size: 30px;
+    }
+  }
+
+  .special {
+    width: 545px;
+    min-height: 287px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+
+    .two {
+      padding-bottom: 100px;
+    }
+  }
+
+  .image {
+    width: 199px;
+    height: 287px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .barcelona {
+    background-image: url(../assets/images/special-offer-01.jpg);
+  }
+
+  .bangkok {
+    background-image: url(../assets/images/special-offer-02.jpg);
+  }
+
+  .content {
+    width: 346px;
+    height: 287px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+
+    .title {
+      display: flex;
+    }
+
+    h1 {
+      font-family: $font-one;
+      font-size: 30px;
+      width: 180px;
+      height: 37px;
+      border: none;
+      position: absolute;
+    }
+
+    .title-bangkok {
+      width: 195px;
+    }
+
+    .smaller-border {
+      width: 160px;
+      border-bottom: solid 2px $black;
+      position: relative;
+      top: 35px;
+    }
+
+    .thailand {
+      width: 180px;
+    }
+
+    span {
+      width: 70px;
+      height: 37px;
+      font-family: $font-one;
+      font-size: 20px;
+      position: relative;
+      left: 176px;
+      top: 5px;
+      color: #ff7d38;
+    }
+
+    .discount {
+      left: 195px;
+      top: 5px;
+    }
+  }
+
+  p {
+    width: 290px;
+    height: 131px;
+    margin-top: 50px;
+    line-height: 18px;
+    letter-spacing: 1.25px;
+  }
+
+  .learnmore-button {
+    margin-top: 40px;
+    margin-left: 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 15px;
+    color: $white;
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+
+// =========RESPONSIVENESS==============//
+@media only screen and (max-width: 1000px) {
+  .special {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

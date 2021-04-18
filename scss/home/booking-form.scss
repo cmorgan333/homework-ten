@@ -1,0 +1,414 @@
+.booking-form {
+  max-width: 1280px;
+  min-height: 200px;
+  margin: 0 auto;
+  display: block;
+  // display: flex;
+  // justify-content: space-around;
+
+  h1 {
+    width: 1280px;
+    // margin-left: 202px;
+    padding-left: 202px;
+    margin-top: 50px;
+    height: 50px;
+    font-family: $font-one;
+    font-size: 60px;
+  }
+
+  //   // ===============INFO FIELDS================//
+
+  .info-fields {
+    max-width: 875px;
+    min-height: 60px;
+    margin: 0 auto;
+    border-bottom: 20px;
+
+    .field-one-container {
+      max-width: 875px;
+      min-height: 50px;
+      // margin-left: 202px;
+      // background-color: teal;
+      display: flex;
+      border-bottom: 20px;
+      justify-content: space-between;
+
+      #field-one {
+        width: 325px;
+        height: 50px;
+        border: solid $blue 1px;
+        margin-bottom: 15px;
+        text-indent: 10px;
+      }
+
+      #field-two {
+        width: 540px;
+        height: 50px;
+        border: solid $blue 1px;
+        margin-bottom: 15px;
+        text-indent: 10px;
+        // margin-right: 200px;
+      }
+    }
+
+    .field-two-container {
+      max-width: 875px;
+      min-height: 50px;
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 20px;
+      // display: flex;
+      // justify-content: space-between;
+      // justify-content: space-between;
+
+      #field-three {
+        width: 325px;
+        height: 50px;
+        border: solid $blue 1px;
+        margin-bottom: 15px;
+        text-indent: 10px;
+      }
+
+      #field-four {
+        max-width: 540px;
+        height: 50px;
+        border: solid $blue 1px;
+        margin-bottom: 15px;
+        text-indent: 10px;
+      }
+    }
+  }
+
+  // //===================CHECK-IN FIELDS==============//
+  .checkin-fields {
+    max-width: 875px;
+    min-height: 60px;
+    margin-top: 25px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .check-in {
+    max-width: 875px;
+    height: 60px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    display: flex;
+    // margin: 0 auto;
+    // opacity: 0.6;
+    // font-size: 18px;
+    // color: $black;
+    // margin-top: 15px;
+  }
+
+  .text-one {
+    width: 118px;
+    height: 60px;
+    // margin-left: 202px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    opacity: 0.6;
+    font-size: 18px;
+    color: $black;
+    padding-top: 15px;
+  }
+  #field-five {
+    width: 757px;
+    height: 60px;
+    border: solid $blue 1px;
+    margin-bottom: 15px;
+    text-indent: 10px;
+
+    input {
+      text-indent: 10px;
+    }
+  }
+
+  //   // =======CHECKOUT FIELDS===============//
+
+  .check-out {
+    max-width: 875px;
+    height: 60px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    display: flex;
+    // margin: 0 auto;
+
+    .text-two {
+      width: 118px;
+      height: 60px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      opacity: 0.6;
+      font-size: 18px;
+      color: $black;
+      padding-top: 20px;
+      margin-top: 5px;
+    }
+
+    #field-six {
+      width: 757px;
+      height: 60px;
+      border: solid $blue 1px;
+      margin-bottom: 15px;
+      text-indent: 10px;
+      margin-top: 10px;
+    }
+  }
+
+  // ================PEOPLE FIELDS================//
+
+  .people-fields {
+    max-width: 1280px;
+    min-height: 60px;
+    margin-top: 25px;
+    display: flex;
+    padding-left: 135px;
+    padding-right: 135px;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 25px;
+
+    // ============ADULT CONTAINER==============//
+    .adult-container {
+      width: 200px;
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+
+      .adult-text {
+        width: 150px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        opacity: 0.6;
+        margin-top: 10px;
+      }
+
+      .adult-field {
+        width: 105px;
+        height: 40px;
+        border: solid $blue 1px;
+      }
+    }
+
+    // =============CHILDREN CONTAINER==========//
+
+    .children-container {
+      max-width: 200px;
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+
+      .children-text {
+        width: 150px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        opacity: 0.6;
+        margin-top: 10px;
+      }
+
+      .children-field {
+        width: 105px;
+        height: 40px;
+        border: solid $blue 1px;
+      }
+    }
+
+    // ============ROOMS CONTAINER==============//
+
+    .rooms-container {
+      max-width: 200px;
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+
+      .rooms-text {
+        width: 150px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        opacity: 0.6;
+        margin-top: 10px;
+      }
+
+      .rooms-field {
+        width: 105px;
+        height: 40px;
+        border: solid $blue 1px;
+      }
+    }
+  }
+
+  // // =============MESSAGE FIELD======================//
+
+  .message-container {
+    max-width: 1280px;
+    min-height: 200px;
+    #message {
+      width: 875px;
+      height: 200px;
+      // margin-top: 20px;
+      margin-bottom: 30px;
+      border: solid $blue 1px;
+      margin-left: 202px;
+
+      // input {
+      //   width: 875px;
+      //   min-height: 200px;
+      //   margin-top: 20px;
+      //   margin-bottom: 30px;
+      //   border: solid $blue 1px;
+      //   margin-left: 202px;
+
+      ::placeholder {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  // =============SUBMIT BUTTON=============//
+
+  .submit-button-container {
+    max-width: 875px;
+    min-height: 140px;
+    margin: 0 auto;
+  }
+
+  .submit-button {
+    max-width: 875px;
+    min-height: 60px;
+    // margin: 0 auto;
+    background-color: $blue;
+    border-radius: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 15px;
+    color: $white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+// ===========RESPONSIVENESS==========//
+
+@media only screen and (max-width: 1100px) {
+  .booking-form {
+    width: 375px;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+
+    h1 {
+      padding-left: 0;
+    }
+
+    .info-fields {
+      width: 375px;
+      // min-height: 140px;
+      display: block;
+
+      .field-one-container {
+        width: 375px;
+        display: block;
+
+        #field-one {
+          width: 375px;
+        }
+
+        #field-two {
+          width: 375px;
+        }
+      }
+
+      .field-two-container {
+        width: 375px;
+        // height: 140px;
+        display: block;
+
+        #field-three {
+          width: 375px;
+          height: 50px;
+        }
+
+        #field-four {
+          width: 375px;
+          height: 50px;
+        }
+      }
+    }
+
+    // ========CHECKIN RESPONSIVENESS==============//
+
+    .checkin-fields {
+      width: 375px;
+      display: block;
+      // display: flex;
+      margin-left: 0;
+
+      .check-in {
+        width: 375px;
+
+        .text-one {
+          width: 100px;
+          font-size: 15px;
+        }
+
+        #field-five {
+          width: 275px;
+        }
+      }
+
+      .check-out {
+        width: 375px;
+      }
+
+      .text-two {
+        width: 100px;
+        font-size: 15px;
+      }
+
+      #field-six {
+        width: 275px;
+      }
+    }
+
+    // ===========PEOPLE RESPONSIVENESS=======//
+
+    .people-fields {
+      width: 375px;
+      min-height: 200px;
+      display: block;
+      margin: 0 auto;
+      flex-direction: column;
+      padding-left: 0;
+      padding-right: 0;
+      align-items: center;
+      margin-top: 0;
+      margin-top: 50px;
+
+      .adult-container {
+        margin-bottom: 25px;
+      }
+
+      .children-container {
+        margin-bottom: 25px;
+      }
+
+      .rooms-container {
+        // margin-bottom: 25px;
+      }
+    }
+
+    .message-container {
+      margin-left: 0;
+      #message {
+        width: 375px;
+        margin-left: 0;
+      }
+    }
+  }
+}

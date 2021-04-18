@@ -1,0 +1,61 @@
+.individual-tours {
+  .japan-main {
+    height: 413px;
+    background-image: linear-gradient($overlay, $overlay),
+      url(../assets/tour/tour-07.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: $font-one;
+    color: $white;
+
+    h1 {
+      font-size: 60px;
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+
+    h4 {
+      font-size: 30px;
+      padding-top: 290px;
+      //   margin-left: 350px;
+      text-align: right;
+      padding-right: 15px;
+    }
+  }
+
+  .tour-images {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .nineteen {
+      background-image: url(../assets/tour/tour-japan/japan-tour-01.jpg);
+    }
+
+    .twenty {
+      background-image: url(../assets/tour/tour-japan/japan-tour-02.jpg);
+    }
+
+    .twentyone {
+      background-image: url(../assets/tour/tour-japan/japan-tour-03.jpg);
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .tour-images {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tour-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .learnmore-button {
+    margin-top: 25px;
+  }
+}

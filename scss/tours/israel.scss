@@ -1,0 +1,126 @@
+.individual-tours {
+  @include center(981px);
+  min-height: 200px;
+  //   display: block;
+
+  .israel-main {
+    // @include center(981px, 49px auto 0 auto);
+    height: 413px;
+    background-image: linear-gradient($overlay, $overlay),
+      url(../assets/tour/tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // display: flex;
+    font-family: $font-one;
+    color: $white;
+
+    h1 {
+      font-size: 60px;
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+
+    h4 {
+      font-size: 30px;
+      margin-top: 290px;
+      text-align: right;
+      padding-right: 15px;
+    }
+  }
+
+  .tour-images {
+    @include center(981px, 40px auto 0 auto);
+    height: 347px;
+    display: flex;
+    justify-content: space-between;
+
+    .image {
+      width: 298px;
+      height: 347px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .one {
+      background-image: url(../assets/tour/tour-israel/israel-tour-01.jpg);
+    }
+
+    .two {
+      background-image: url(../assets/tour/tour-israel/israel-tour-02.jpg);
+    }
+
+    .three {
+      background-image: url(../assets/tour/tour-israel/israel-tour-03.jpg);
+    }
+  }
+
+  .tour-text {
+    margin-top: 29px;
+    min-height: 790px;
+
+    .text {
+      min-height: 228px;
+
+      h1 {
+        width: 170px;
+        height: 65px;
+        font-family: $font-one;
+        font-size: 60px;
+        border-bottom: solid $black 2px;
+      }
+
+      p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 1.25px;
+        margin-top: 37px;
+      }
+    }
+  }
+}
+
+.learnmore-button {
+  width: 133px;
+  height: 40px;
+  background-color: $blue;
+  z-index: 99;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 100px;
+
+  p {
+    font-size: 15px;
+    margin: 0 auto;
+    width: 100px;
+    height: 17px;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: $white;
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .tour-images {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tour-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .learnmore-button {
+    margin-top: 25px;
+  }
+}

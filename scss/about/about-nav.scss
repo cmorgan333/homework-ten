@@ -1,0 +1,42 @@
+.black {
+  max-width: 1280px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: $black solid 2px;
+  margin-top: 20px;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    background-image: url(../assets/icons/logo-black.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .black-links {
+    max-width: 525px;
+    height: 42px;
+    display: flex;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $black;
+    align-self: center;
+    margin: auto;
+    border-right: solid 1px $blue;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: $black;
+  }
+
+  .contact {
+    border-right: none;
+  }
+}

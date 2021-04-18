@@ -1,0 +1,144 @@
+.contact-content {
+  @include center(980px, 185px auto 50px auto);
+  min-height: 910px;
+  display: flex;
+  justify-content: space-between;
+
+  .map {
+    width: 400px;
+    min-height: 732px;
+    display: block;
+    padding-left: 10px;
+
+    h1 {
+      height: 37px;
+      width: 159px;
+      font-family: $font-one;
+      font-size: 30px;
+      border-bottom: solid 2px $black;
+    }
+
+    .image-map {
+      height: 442px;
+      max-width: 400px;
+      margin-top: 58px;
+      background-image: url(../assets/images/map.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .map-content {
+      min-height: 161px;
+      width: 400px;
+      margin-top: 34px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 18px;
+      margin-top: 35px;
+
+      p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 18px;
+        line-height: 5px;
+        opacity: 0.6;
+      }
+    }
+  }
+
+  .form {
+    max-width: 529px;
+    min-height: 622px;
+    margin-top: 95px;
+    // padding-left: 30px;
+    padding-right: 10px;
+
+    input {
+      width: 529px;
+      height: 60px;
+      background-color: #f5f5f5;
+      margin-bottom: 20px;
+      text-indent: 21px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 16px;
+      border: none;
+    }
+
+    .message {
+      width: 529px;
+      height: 199px;
+      margin-bottom: 20px;
+    }
+
+    .readmore-button {
+      width: 167px;
+      height: 60px;
+      background-color: $blue;
+      margin: 0 auto;
+      text-align: center;
+      align-items: center;
+      //   margin-top: 25px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 16px;
+      color: white;
+      margin-left: 0;
+      padding-top: 20px;
+    }
+  }
+}
+
+// ==========RESPONSIVENESS===============//
+
+@media only screen and (max-width: 1030px) {
+  .contact-content {
+    width: 375px;
+    // flex-direction: column;
+    // margin: 0 auto;
+    // padding-right: 100px;
+    padding-top: 60px;
+    margin-left: 0;
+    display: block;
+    // margin-left: 60px;
+    // justify-content: center;
+    // align-items: center;
+    margin: 0 auto;
+
+    .map {
+      width: 375px;
+      padding-left: 0;
+      // padding-right: 30px;
+
+      .image-map {
+        width: 375px;
+      }
+    }
+
+    .form {
+      width: 375px;
+      // padding-left: 60px;
+      // padding-right: 30px;
+      // margin: 0 auto;
+      padding-top: 20px;
+
+      input {
+        width: 375px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+
+      .message {
+        width: 375px;
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 25px;
+    position: relative;
+    top: 25px;
+    margin: 0 auto;
+  }
+}
