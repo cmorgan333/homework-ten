@@ -35,7 +35,7 @@ p {
   font-family: Lato;
   src: url(fonts/Lato/Lato-lightItalic.ttf);
 }
-.hero {
+.home-hero-image {
   width: 100%;
   height: 500px;
   padding-top: 20px;
@@ -511,7 +511,7 @@ footer .footer-content .socials .twitter {
     margin-left: 0;
   }
 }
-nav {
+.white {
   max-width: 980px;
   min-height: 60px;
   margin: 0 auto;
@@ -519,22 +519,24 @@ nav {
   justify-content: space-between;
   border-bottom: #ffffff solid 2px;
 }
-nav .logo {
+.white .logo-white {
   width: 92px;
   height: 42px;
   background-image: url(../assets/icons/logo-white.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  color: white;
 }
-nav .links {
+.white .links-white {
   width: 525px;
   min-height: 42px;
   display: flex;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 15px;
+  color: white;
 }
-nav .links a {
+.white .links-white a {
   text-decoration: none;
   color: #ffffff;
   align-self: center;
@@ -542,8 +544,9 @@ nav .links a {
   border-right: solid 1px #79addc;
   padding-left: 20px;
   padding-right: 20px;
+  color: white;
 }
-nav .links .contact {
+.white .links-white .contact {
   border-right: none;
 }
 
@@ -591,7 +594,7 @@ nav .links .contact {
   border-bottom: black solid 2px;
   margin-top: 20px;
 }
-.black .logo {
+.black .logo-black {
   width: 92px;
   height: 42px;
   background-image: url(../assets/icons/logo-black.png);

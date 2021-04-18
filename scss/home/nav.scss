@@ -1,4 +1,4 @@
-nav {
+.white {
   max-width: 980px;
   min-height: 60px;
   margin: 0 auto;
@@ -6,22 +6,24 @@ nav {
   justify-content: space-between;
   border-bottom: $white solid 2px;
 
-  .logo {
+  .logo-white {
     width: 92px;
     height: 42px;
     background-image: url(../assets/icons/logo-white.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
   }
 
-  .links {
+  .links-white {
     width: 525px;
     min-height: 42px;
     display: flex;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
     font-size: 15px;
+    color: white;
 
     a {
       text-decoration: none;
@@ -31,6 +33,7 @@ nav {
       border-right: solid 1px $blue;
       padding-left: 20px;
       padding-right: 20px;
+      color: white;
     }
 
     .contact {
