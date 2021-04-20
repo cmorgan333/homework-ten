@@ -1,12 +1,17 @@
-.white {
+nav {
   max-width: 980px;
   min-height: 60px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   border-bottom: $white solid 2px;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  top: 20px;
+  left: 650px;
 
-  .logo-white {
+  .logo {
     width: 92px;
     height: 42px;
     background-image: url(../assets/icons/logo-white.png);
@@ -16,7 +21,7 @@
     color: white;
   }
 
-  .links-white {
+  .links {
     width: 525px;
     min-height: 42px;
     display: flex;

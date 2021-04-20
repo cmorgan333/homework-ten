@@ -1,6 +1,6 @@
 .tours-content {
   header {
-    @include center(981px, 50px auto 0 auto);
+    @include center(981px, 150px auto 0 auto);
     min-height: 200px;
     background-image: linear-gradient($overlay, $overlay),
       url(../assets/tour/tours-header.jpg);

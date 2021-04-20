@@ -511,15 +511,20 @@ footer .footer-content .socials .twitter {
     margin-left: 0;
   }
 }
-.white {
+nav {
   max-width: 980px;
   min-height: 60px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   border-bottom: #ffffff solid 2px;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  top: 20px;
+  left: 650px;
 }
-.white .logo-white {
+nav .logo {
   width: 92px;
   height: 42px;
   background-image: url(../assets/icons/logo-white.png);
@@ -528,7 +533,7 @@ footer .footer-content .socials .twitter {
   background-repeat: no-repeat;
   color: white;
 }
-.white .links-white {
+nav .links {
   width: 525px;
   min-height: 42px;
   display: flex;
@@ -536,7 +541,7 @@ footer .footer-content .socials .twitter {
   font-size: 15px;
   color: white;
 }
-.white .links-white a {
+nav .links a {
   text-decoration: none;
   color: #ffffff;
   align-self: center;
@@ -546,7 +551,7 @@ footer .footer-content .socials .twitter {
   padding-right: 20px;
   color: white;
 }
-.white .links-white .contact {
+nav .links .contact {
   border-right: none;
 }
 
@@ -585,7 +590,7 @@ footer .footer-content .socials .twitter {
   padding-top: 10px;
 }
 
-.black {
+.black-nav {
   max-width: 1280px;
   height: 60px;
   margin: 0 auto;
@@ -594,7 +599,7 @@ footer .footer-content .socials .twitter {
   border-bottom: black solid 2px;
   margin-top: 20px;
 }
-.black .logo-black {
+.black-nav .logo-black {
   width: 92px;
   height: 42px;
   background-image: url(../assets/icons/logo-black.png);
@@ -602,14 +607,14 @@ footer .footer-content .socials .twitter {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.black .black-links {
+.black-nav .black-links {
   max-width: 525px;
   height: 42px;
   display: flex;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 15px;
 }
-.black a {
+.black-nav a {
   text-decoration: none;
   color: black;
   align-self: center;
@@ -619,7 +624,7 @@ footer .footer-content .socials .twitter {
   padding-right: 20px;
   color: black;
 }
-.black .contact {
+.black-nav .contact {
   border-right: none;
 }
 
@@ -627,7 +632,7 @@ footer .footer-content .socials .twitter {
   max-width: 980px;
   min-height: 200px;
   margin: 0 auto;
-  margin-top: 179px;
+  margin-top: 300px;
   margin-bottom: 230px;
 }
 .about-content .about-text {
@@ -651,6 +656,7 @@ footer .footer-content .socials .twitter {
   min-height: 200px;
   max-width: 900px;
   margin-top: 101px;
+  margin-bottom: 360px;
 }
 .about-content .client-content h3 {
   width: 240px;
@@ -763,7 +769,7 @@ footer .footer-content .socials .twitter {
 }
 .tours-content header {
   max-width: 981px;
-  margin: 50px auto 0 auto;
+  margin: 150px auto 0 auto;
   min-height: 200px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tours-header.jpg);
   background-position: center;
@@ -1401,7 +1407,7 @@ footer .footer-content .socials .twitter {
 }
 .special-content {
   max-width: 980px;
-  margin: 150px auto 85px auto;
+  margin: 350px auto 140px auto;
   min-height: 910px;
 }
 .special-content .title {
@@ -1516,7 +1522,7 @@ footer .footer-content .socials .twitter {
 }
 .blog-content {
   max-width: 980px;
-  margin: 85px auto 0 auto;
+  margin: 300px auto 40px auto;
   height: 1060px;
 }
 .blog-content h1 {
@@ -1578,7 +1584,7 @@ footer .footer-content .socials .twitter {
 
 .contact-content {
   max-width: 980px;
-  margin: 185px auto 50px auto;
+  margin: 350px auto 140px auto;
   min-height: 910px;
   display: flex;
   justify-content: space-between;
