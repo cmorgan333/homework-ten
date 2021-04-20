@@ -11,6 +11,8 @@ function init() {
     let btnId = this.id;
     let contentID = btnId + "Content";
 
+    console.log(btnId);
+
     // $("button").click(function () {
     //   $("nav").css("color", "black");
     // });
